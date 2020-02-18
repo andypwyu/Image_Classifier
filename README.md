@@ -1,11 +1,34 @@
-# Data Scientist Project
+# image-classifier
+Udacity Data Science Nanodegree Project 2 Image Classifier
+### Table of Contents
 
-Project code for Udacity's Data Scientist Nanodegree program. In this project, you will first develop code for an image classifier built with PyTorch, then you will convert it into a command line application.
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-In order to complete this project, you will need to use the GPU enabled workspaces within the classroom.  The files are all available here for your convenience, but running on your local CPU will likely not work well.
+## Installation <a name="installation"></a>
 
-You should also only enable the GPU when you need it. If you are not using the GPU, please disable it so you do not run out of time!
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
-### Data
+## Project Motivation<a name="motivation"></a>
 
-The data for this project is quite large - in fact, it is so large you cannot upload it onto Github.  If you would like the data for this project, you will want download it from the workspace in the classroom.  Though actually completing the project is likely not possible on your local unless you have a GPU.  You will be training using 102 different types of flowers, where there ~20 images per flower to train on.  Then you will use your trained classifier to see if you can predict the type for new images of the flowers.
+This is a project of Term 1 Udacity Data Science Nanodegree. In this project, I trained an image classifier to recognize different species of flowers.
+
+
+## File Descriptions <a name="files"></a>
+
+* Image Classifier Project.ipynb: showcase work related to this project. 
+* predict.py: contains code that can be called by a command line application to run prediction on a new image. 
+* train.py: includes codes to train the classifier that can be called by a command line application.
+* cat_to_name.json: is provided by Udacity to load in a mapping from category label to category name.
+
+## Results<a name="results"></a>
+
+The image classifier trained through tranfer learning was able to reach 88.6% accuracy on the test data.
+
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+Credits must be given to Udacity for providing starting code and data for this project. A LICENSE file is also included.
