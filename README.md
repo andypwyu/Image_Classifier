@@ -1,5 +1,5 @@
-# image-classifier
-Udacity Data Science Nanodegree Project 2 Image Classifier
+# building-image-classifier
+DSND Term 1 Project: Build an Image Classifier
 ### Table of Contents
 
 1. [Installation](#installation)
